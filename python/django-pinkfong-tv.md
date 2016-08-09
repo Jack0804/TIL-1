@@ -46,15 +46,7 @@ url(r'^video/$', VideoHomeView.as_view(), name='video-home'),
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <title>{{ title }}</title>
         <meta name="description" content="핑크퐁 - 어린이 동요 홈스쿨링"/>
-        ...
-        {% block css %}
-        {% endblock %}
-        <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
-        {% block js %}
-        {% endblock %}
-        ...
-    <nav class="header">
-        ...   
+       
     </nav>
     {% block content %}
     {% endblock %}
